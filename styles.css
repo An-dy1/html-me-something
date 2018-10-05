@@ -1,0 +1,156 @@
+body {
+    color: #efdab9;
+    background-color: #393e44;
+    width: 100%;
+    padding: 1.25em;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    margin: 25px;
+}
+
+h1.introduction {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.25em;
+}
+
+p.introduction {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #78b0a0;
+    max-width: 650px;
+    line-height: 1.75;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+img.logo {
+    max-width: 200px;
+    float: left;
+}
+
+div.nav {
+    margin-bottom: 125px;
+    margin-right: 75px;
+}
+nav ol li {
+    color: #efdab9;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;;
+    font-size: 28px;
+}
+
+nav ol {
+    text-align: right;
+}
+
+nav {
+    margin-top: 45px;
+} /* I want the list to be lined up exactly with the mountain */
+
+a:link {
+    color: #ffc31f;
+}
+
+a:visited {
+    color: #78b0a0;
+}
+
+a:active {
+    color: #ffc31f;
+}
+
+article {
+    justify-content: center; /* why isn't this working for me */
+    margin: 0 auto;
+    text-align: center;
+}
+
+p.content {
+    text-align: left;
+    max-width: 750px;
+    padding: 1.25em;
+    margin-top: 45px;
+    line-height: 1.75;
+}
+
+p.cap {
+    color: #fff;
+    font-size: 12px;
+}
+
+h2 {
+    padding: 1.25em;
+    font-size: 32px;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+main {
+    display: flex;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+img.illustration {
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#city select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #efdab9;
+}
+
+.form {
+    margin: 25px;
+    align-content: center;
+}
+
+.grad {
+    background-image: linear-gradient(-45deg, #ffc31f, #efdab9);
+    display: flex;
+    align-content: center;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    display: block;
+    color: #393e44;
+    padding: 30px;
+}
+
+p.readmore {
+    font-size: 24px;
+    
+}
+p.copyright {
+    font-size: 16px;
+}
+
+
+
+
+/* Main questions:
+- How do I fill the page with my content and header?
+- How do I get the buttons not to appear clicked after I refresh?
+- Line 117 - why is there a weird space here and between title and paragrph up top? */

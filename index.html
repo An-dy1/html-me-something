@@ -2,89 +2,123 @@
 <html>
     <head>
         <title>Andy's Colorado itinerary</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet"> 
     </head>
     <body>
 
         <header>
-            <h1>My long weekend in Colorado: Itinerary</h1>
-            <p>On October 11th, the day this assignment is due, I'm leaving work early and hightailing it to Denver, CO. I haven't been to the Rocky Mountains since I was a kid. What I remember most from that trip are the recurrent nosebleeds I suffered.<br>
-            I'm ready to go back and make some new memories. To help me with the planning process (and knock some homework out at the same time) I'm making this website.<br>
-            Below, you'll find my trip itinerary.
+            <div class="nav">
+                <img class="logo" src="https://www.dropbox.com/s/0hftr73yvkhx4ko/Mountain-transparent-7.gif?raw=1">
+                <nav>
+                    <ol>
+                        <li><a href="#thursday">Thursday</a></li>
+                        <li><a href="#friday">Friday</a></li>
+                        <li><a href="#saturday">Saturday</a></li>
+                        <li><a href="#sunday">Sunday</a></li>
+                        <li><a href="#monday">Monday</a></li>
+                    </ol>
+                </nav>
+            </div>
+            <h1 class="introduction">My long weekend in Colorado: An itinerary</h1>
+            <p class = "introduction">On October 11th, the day this assignment is due, I'm leaving 
+                work early and hightailing it to Denver, CO. I haven't been to the Rocky Mountains 
+                since I was a kid. More than anything else about that trip, I remember the nosebleeds.
+                <br><br>It's high time to go back and make some new memories. To help me with the planning process 
+                (and knock some homework out at the same time) I'm making this website.<br><br>
+                Below, you'll find my trip itinerary.
             </p>
-            <nav>
-                <ol>
-                    <li><a href="#thursday">Thursday</a></li>
-                    <li><a href="#friday">Friday</a></li>
-                    <li><a href="#saturday">Saturday</a></li>
-                    <li><a href="#sunday">Sunday</a></li>
-                    <li><a href="#monday">Monday</a></li>
-                </ol>
-            </nav>
         </header>  
 
         <main>
 
             <article>
                 <section>
-                    <a name="thursday"></a>
+                    <a name="thursday" class="internal-link"></a>
                     <h2>Thursday</h2>
-                        <p><!-- write a paragraph here --></p>
                         <figure>
-                            <img src=""> <!-- put a photo here-->
+                            <img class="illustration" src="https://www.dropbox.com/s/jtze4to1ls4gqn2/road.jpg?raw=1"> <!-- put a photo here-->
                             <figcaption>
-                                <!-- put a caption here-->
+                                <p class="cap">The drive to Kansas, if it weren't through Kansas</p>
                             </figcaption>
                         </figure>
+                        <p class="content">Thursday is a driving day.</p> <!-- write more here-->
                 </section>
                 <section>
-                    <a name="friday"></a>
+                    <a name="friday" class="internal-link"></a>
                     <h2>Friday</h2>
-                        <p><!-- write a paragraph here --></p>
                         <figure>
-                            <img src=""> <!-- put a photo here-->
+                            <img class="illustration" src="https://www.dropbox.com/s/aovf031kkjctrvt/denver%20day%201.jpg?raw=1">
                             <figcaption>
-                                <!-- put a caption here-->
-                            </figcaption>
+                                <p class="cap">The scenic Denver skyline.</p>
+                            </figcaption>  
                         </figure>  
+                        <p class="content"><!-- write a paragraph here --></p>  
                 </section>
                 <section>
-                    <a name="saturday"></a>
+                    <a name="saturday" class="internal-link"></a>
                     <h2>Saturday</h2>
-                        <p><!-- write a paragraph here --></p>
                         <figure>
-                            <img src=""> <!-- put a photo here-->
+                            <img class="illustration" src="https://www.dropbox.com/s/la6nmxxtj03yhhw/breckenridge%20day%202.jpg?raw=1">
                             <figcaption>
-                                <!-- put a caption here-->
+                                <p class="cap">Snowy, snowy Breckenridge, CO.</p>
                             </figcaption>
                         </figure>
+                        <p class="content">I'll be honest, when I saw that the forecast for the week
+                             before my trip called for alternating rain and snow <em>every day</em>, I 
+                             had some second thoughts.
+                        <br><br>
+                        </p>
                 </section>
                 <section>
-                    <a name="sunday"></a>
+                    <a name="sunday" class="internal-link"></a>
                     <h2>Sunday</h2>
-                        <p><!-- write a paragraph here --></p>
                         <figure>
-                            <img src=""> <!-- put a photo here-->
+                            <img class="illustration" src="https://www.dropbox.com/s/chy102kozbd6pk9/denver%20day%203.jpg?raw=1">
                             <figcaption>
-                                <!-- put a caption here-->
+                                <p class="cap">Back to balmy Denver.</p>
                             </figcaption>
                         </figure>
+                        <p class="content"><!-- write a paragraph here --></p>
                 </section>
                 <section>
-                    <a name="monday"></a>
+                    <a name="monday" class="internal-link"></a>
                     <h2>Monday</h2>
-                        <p><!-- write a paragraph here --></p>
                         <figure>
-                            <img src=""> <!-- put a photo here-->
+                            <img class="illustration" src="https://www.dropbox.com/s/crur1vg3h5nx6vi/red%20rocks%20day%204.jpg?raw=1"> <!-- put a photo here-->
                             <figcaption>
-                                <!-- put a caption here-->
+                                <p class="cap">Sunrise at Red Rocks.</p>
                             </figcaption>
                         </figure>
+                        <p class="content"><!-- write a paragraph here --></p>
                 </section>
             </article>
+
         </main>
 
-        <footer>
-            <p>To read more, visit my blog <a href="www.andiefromkc.com">here</a></p>
+        <div class="form">
+            <form>
+                <p>What's <em>your</em> favorite Colorado city?</p>
+                <select id="city" name="city">
+                    <option value="au">Denver</option>
+                    <option value="ca">Breckenridge</option>
+                    <option value="usa">Avon</option>
+                    <option value="usa">Eagle</option>
+                    <option value="usa">Telluride</option>
+                    <option value="usa">Boulder</option>
+                    <option value="usa">Crestone</option>
+                </select>
+            </form> 
+        </div>
+
+        <footer class="grad">
+            <div class="readmore">
+                <p class="readmore">To read more, visit my blog <a href="https://www.andiefromkc.com" class="external-link">here.</a></p>
+            </div>
+            <div class="copyright">
+                <p class="copyright">&copy Copyright Andrea Johnson. All rights reserved.</p>
+            </div>    
         </footer>
 
     </body>
@@ -93,4 +127,6 @@
 
 <!-- Questions:
 Can I wrap text in this program? line 10
-If I want to back tab a bunch of lines of code, is there an easy way to do that?-->
+If I want to back tab a bunch of lines of code, is there an easy way to do that?
+How do I put just a normal link in? line 87
+How do I style the footer/select for the CSS I wrote for it in grad1? -->
