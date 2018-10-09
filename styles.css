@@ -2,7 +2,6 @@ body {
     color: #efdab9;
     background-color: #393e44;
     width: 100%;
-    padding: 1.25em;
     font-family: 'Lato', sans-serif;
 }
 
@@ -148,6 +147,7 @@ select {
 footer {
     bottom: 0;
     width: 100%;
+    margin: 0 auto;
 }
 
 footer p {
@@ -175,5 +175,4 @@ p.copyright {
 
 
 /* Main questions:
-- How to center my little survey question
 - How to make the gradient fill the screen */
